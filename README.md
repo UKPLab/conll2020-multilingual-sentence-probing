@@ -27,7 +27,7 @@ Our implementation is based on [Senteval](https://github.com/facebookresearch/Se
 * Change the balance between classes in a given dataset
 * Use the Random Forest and Naive Bayes classifiers from scikit-learn
 * Automatically tune hyperparameters for MLP and Random Forest
-* Generate a number of sentence embeddings
+* Train various sentence embeddings
 
 We also added english datasets, as well as datasets in the languages:
 * Turkish (tr)
