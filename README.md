@@ -17,7 +17,8 @@ Code and data for our CoNLL 2020 publication: "[How to Probe Sentence Embeddings
     publisher = "Association for Computational Linguistics",
     url = "https://www.aclweb.org/anthology/2020.conll-1.8",
     pages = "108--118",
-}```
+}
+```
 
 ## Structure
 
