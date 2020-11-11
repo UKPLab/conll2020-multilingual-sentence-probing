@@ -2,12 +2,30 @@
 
 Code and data for our CoNLL 2020 publication: "[How to Probe Sentence Embeddings in Low-Resource Languages: On Structural Design Choices for Probing Task Evaluation](https://arxiv.org/abs/2006.09109)"
 
-It is based on [Senteval](https://github.com/facebookresearch/SentEval) to train and evaluate classifiers, using a given sentence embedding. The following features were added:
-* Generate a number of sentence embeddings
+## Citation
+
+```@inproceedings{eger-etal-2020-probe,
+    title = "How to Probe Sentence Embeddings in Low-Resource Languages: On Structural Design Choices for Probing Task Evaluation",
+    author = "Eger, Steffen  and
+      Daxenberger, Johannes  and
+      Gurevych, Iryna",
+    booktitle = "Proceedings of the 24th Conference on Computational Natural Language Learning",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.conll-1.8",
+    pages = "108--118",
+}```
+
+## Structure
+
+Our implementation is based on [Senteval](https://github.com/facebookresearch/SentEval) to train and evaluate classifiers, using a given sentence embedding. The following features were added:
 * Change the size of a dataset, while maintaining its balance
 * Change the balance between classes in a given dataset
 * Use the Random Forest and Naive Bayes classifiers from scikit-learn
 * Automatically tune hyperparameters for MLP and Random Forest
+* Generate a number of sentence embeddings
 
 We also added english datasets, as well as datasets in the languages:
 * Turkish (tr)
