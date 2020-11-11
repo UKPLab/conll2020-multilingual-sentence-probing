@@ -4,7 +4,8 @@ Code and data for our CoNLL 2020 publication: "[How to Probe Sentence Embeddings
 
 ## Citation
 
-```@inproceedings{eger-etal-2020-probe,
+```
+@inproceedings{eger-etal-2020-probe,
     title = "How to Probe Sentence Embeddings in Low-Resource Languages: On Structural Design Choices for Probing Task Evaluation",
     author = "Eger, Steffen  and
       Daxenberger, Johannes  and
